@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("./components/leftSectionAdvancedComponent.css");
+@import url("./components/homePage.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+:root {
+  --purple: #35366e;
+  --blue: #0366d6;
+  --indigo: rgb(55, 48, 163);
+  --light-indigo: rgb(199, 210, 254);
+  --color-bg-tertiary: rgb(246, 248, 250);
+  --border-grey: rgb(208, 215, 222);
+  --secondary-border-grey: rgb(216, 222, 228);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2em !important;
+  font-weight: 600 !important;
+}
+
+h2 {
+  font-size: 1.5em !important;
+  font-weight: 600 !important;
+} /* user agent */
+
+h3 {
+  font-size: 1.17em !important;
+  font-weight: 600 !important;
+}
+
+.readme-output-section a {
+  color: var(--blue) !important;
+  text-decoration: underline !important;
+}
+
+img {
+  height: auto !important;
+  display: inline !important;
+}
+
+.info-tooltip {
+  max-width: 300px;
+  text-align: left;
+  font-size: 1rem !important;
+}
+
+ul {
+  display: block !important;
+  list-style-type: disc !important;
+  padding-inline-start: 40px !important;
+}
+
+p {
+  margin-bottom: 1rem !important;
+}
+
+pre {
+  background-color: var(--color-bg-tertiary);
+  border-radius: 6px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 8px;
+}
+
+#__next {
+  height: 100vh;
+}
+
+.site-header {
+  height: 8vh;
+}
+
+.right-section-container {
+  height: 92vh;
+}
